@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 248, 237);
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 40px 0; /*distancia entre top y navbar*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 70px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #313131;
+    text-transform: uppercase;
+    
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    position: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.title {
+    font-family: sans-serif;
+    color: rgb(59, 59, 59);
+    font-size: 48px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.site-footer {
+    background-color: rgb(255, 238, 211); /* Fondo negro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar el texto */
+    padding: 20px 0; /* Espaciado interno */
+    position: relative; /* Permite que el contenido lo empuje hacia abajo */
+    bottom: 0;
+    width: 100%; /* Hacer que ocupe todo el ancho */
+    font-size: 14px;
+    display: flex; /* Flexbox para distribuir contenido */
+    justify-content: space-between; /* Espaciado entre elementos */
+    align-items: center; /* Alinea elementos verticalmente */
+}
+
+.footer-box {
+    background-color: pink; /* Fondo rosa */
+    width: 200px; /* Ancho del cuadrado */
+    height: 200px; /* Altura del cuadrado */
+    padding: 20px;
+    color: black; /* Texto en negro para mejor contraste */
+    text-align: left;
+    margin-left: 20px;
+}
+
+.footer-box h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-box p {
+    margin: 0;
+    font-size: 14px;
+}
