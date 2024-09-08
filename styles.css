@@ -77,21 +77,31 @@
 
 .footer-box {
     background-color: pink; /* Fondo rosa */
-    width: 200px; /* Ancho del cuadrado */
+    width: 40%; /* Ancho del cuadrado */
     height: 200px; /* Altura del cuadrado */
     padding: 20px;
-    color: black; /* Texto en negro para mejor contraste */
-    text-align: left;
+    color: white; /* Texto en blanco para mejor contraste */
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer-text {
+    color: black;
+    width: 60%; /* Cada bloque ocupa el 50% del ancho */
+    padding: 20px; /* Espaciado interno para los bloques */
+    font-size: 20px;
 }
 
 .footer-box h2 {
     margin: 0;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 40px;
 }
 
 .footer-box p {
     margin: 0;
-    font-size: 14px;
+    font-size: 40px;
 }
