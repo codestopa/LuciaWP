@@ -8,7 +8,7 @@
     width: 100%;
     height: 100vh;
     background-image: url('img/background.png');
-    background-size: cover;
+    background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(255, 248, 237);
@@ -62,7 +62,7 @@
 }
 
 .site-footer {
-    background-color: rgb(255, 238, 211); /* Fondo negro */
+    background-color: rgb(255, 248, 237); /* Fondo negro */
     color: white; /* Texto blanco */
     text-align: center; /* Centrar el texto */
     padding: 20px 0; /* Espaciado interno */
@@ -104,4 +104,110 @@
 .footer-box p {
     margin: 0;
     font-size: 40px;
+}
+
+/*SERVICIOS*/
+
+.services-page {
+    height: 100vh; /* Ocupa el tamaño completo de la ventana */
+    background-color:  rgb(255, 248, 237); /* Fondo blanco */
+    display: flex; /* Flexbox para centrar el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.services-page h1 {
+    font-size: 48px; /* Tamaño del título */
+    color: black; /* Color del texto */
+}
+
+.services-container {
+    display: flex; /* Flexbox para dividir la página en dos partes */
+    width: 100%; /* El ancho total es del 100% */
+    height: 100%; /* La altura total ocupa toda la página */
+}
+
+.services-image {
+    width: 50%; /* Ocupa el 50% del ancho */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.services-image img {
+    max-width: 100%; /* Imagen ajustada al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.services-text {
+    width: 50%; /* Ocupa el 50% del ancho */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.services-text p {
+    font-size: 18px; /* Tamaño del texto */
+    color: black;
+}
+
+.services-title-container {
+    background-color: rgb(141, 93, 65); /* Fondo del rectángulo */
+    width: 100%; /* Ocupa el 100% del ancho de la mitad derecha */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Asegura que el padding no exceda el ancho */
+    margin-bottom: 20px;
+}
+
+/* Ajustes al título */
+.services-title-container h1 {
+    margin: 0;
+    font-size: 48px; /* Tamaño del título */
+    color: rgb(255, 255, 255);
+    text-align: left; /* El título se alinea a la izquierda */
+}
+
+.accordion {
+    margin-top: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.accordion-header {
+    background-color: transparent;
+    color: black;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    border-bottom: 2px solid rgb(141, 93, 65);
+}
+
+.accordion-header:hover {
+    background-color: #ddd;
+}
+
+.accordion-content {
+    padding: 0 15px;
+    display: none; /* Oculta el contenido por defecto */
+    background-color: white;
+}
+
+.accordion-content p {
+    margin: 10px 0;
+}
+
+/* Estilo al abrir el acordeón */
+.accordion-item.active .accordion-content {
+    display: block; /* Muestra el contenido cuando se activa */
 }
