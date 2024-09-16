@@ -61,7 +61,7 @@
     margin-top: 20%;
 }
 
-.site-footer {
+.lucia-footer {
     background-color: rgb(255, 248, 237); /* Fondo negro */
     color: white; /* Texto blanco */
     text-align: center; /* Centrar el texto */
@@ -278,4 +278,35 @@
 .content-box p {
     font-size: 16px;
     color: #666;
+}
+
+.site-footer {
+    background-color: #ffc7c9; /* Fondo rosa */
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y los títulos */
+    padding: 0px;
+    height: 650px; /* Altura del footer */
+    box-sizing: border-box;
+    justify-content: flex-end;
+}
+
+/* Imagen en el footer */
+.footer-image {
+    height: 100%; /* Ocupa toda la altura del footer */
+    width: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 0px; /* Espacio entre la imagen y los títulos */
+}
+
+/* Títulos dentro del footer */
+.footer-titles {
+    display: flex;
+    flex-direction: column; /* Organiza los títulos en columna */
+    justify-content: center; /* Centra los títulos verticalmente */
+}
+
+/* Estilo de los títulos */
+.footer-titles h3 {
+    margin: 20px 0; /* Espaciado entre los títulos */
+    color: white; /* Color de texto blanco */
+    font-size: 40px;
 }
