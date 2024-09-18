@@ -11,7 +11,7 @@
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(255, 248, 237);
+    background-color: #fff8ed;
 }
 
 .navbar{
@@ -55,14 +55,14 @@
 
 .title {
     font-family: sans-serif;
-    color: rgb(59, 59, 59);
+    color: #61665a;
     font-size: 48px;
     text-align: center;
     margin-top: 20%;
 }
 
 .lucia-footer {
-    background-color: rgb(255, 248, 237); /* Fondo negro */
+    background-color: #fff8ed; /* Fondo negro */
     color: white; /* Texto blanco */
     text-align: center; /* Centrar el texto */
     padding: 20px 0; /* Espaciado interno */
@@ -76,7 +76,7 @@
 }
 
 .footer-box {
-    background-color: #ffc0cb; /* Fondo rosa */
+    background-color: #f5c3c1; /* Fondo rosa */
     width: 40%; /* Ancho del cuadrado */
     height: 200px; /* Altura del cuadrado */
     padding: 20px;
@@ -89,7 +89,7 @@
 }
 
 .footer-text {
-    color: black;
+    color: #61665a;
     width: 60%; /* Cada bloque ocupa el 50% del ancho */
     padding: 20px; /* Espaciado interno para los bloques */
     font-size: 20px;
@@ -109,7 +109,7 @@
 
 .new-page {
     height: 100vh; /* Ocupa el tamaño completo de la ventana */
-    background-color:  rgb(255, 248, 237); /* Fondo blanco */
+    background-color:  #fff8ed; /* Fondo blanco */
     display: flex; /* Flexbox para centrar el contenido */
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
@@ -117,7 +117,7 @@
 
 .blank-page { 
     height: 100vh; /* Ocupa el tamaño completo de la ventana */
-    background-color:  rgb(255, 248, 237); /* Fondo blanco */
+    background-color:  #fff8ed; /* Fondo blanco */
     display: flex; /* Flexbox para centrar el contenido */
     flex-direction: column;
     align-items:flex-start; /* Centrar verticalmente */
@@ -125,7 +125,7 @@
 
 .new-page h1 {
     font-size: 48px; /* Tamaño del título */
-    color: black; /* Color del texto */
+    color: #6f7366; /* Color del texto */
 }
 
 .title-container {
@@ -152,17 +152,36 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 0px;
 }
 
 
 .page-text p {
     font-size: 25px; /* Tamaño del texto */
-    color: rgb(37, 37, 37);
+    color: #6f7366;
+    margin-left: 90px;
+    text-align: right;
 }
 
+.page-text-left {
+    width: 50%; /* Ocupa el 50% del ancho */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+}
+
+
+.page-text-left p {
+    font-size: 25px; /* Tamaño del texto */
+    color:#6f7366;
+    margin-right: 90px;
+    text-align: justify;
+}
+
+
 .page-title-container {
-    background-color: rgb(141, 93, 65); /* Fondo del rectángulo */
+    background-color: #a16d5a; /* Fondo del rectángulo */
     width: 100%; /* Ocupa el 100% del ancho de la mitad derecha */
     padding: 20px; /* Espaciado interno */
     box-sizing: border-box; /* Asegura que el padding no exceda el ancho */
@@ -189,7 +208,7 @@
 .accordion-header {
     height: 80px;
     background-color: transparent;
-    color: black;
+    color: #6f7366;
     padding: 15px;
     width: 100%;
     text-align: left;
@@ -222,7 +241,7 @@
 }
 
 .left-title-container {
-    background-color: #ffc0cb; /* Fondo del rectángulo */
+    background-color: #f5c3c1; /* Fondo del rectángulo */
     width: 60%; /* Ocupa el 60% del ancho de la mitad derecha */
     height: 100px;
     box-sizing: border-box; /* Asegura que el padding no exceda el ancho */
@@ -237,7 +256,7 @@
 
 .static-title {
     font-size: 48px;
-    color: black;
+    color: #6f7366;
     margin: 0;
     padding: 20px;
     background-color: lightgray;
